@@ -112,6 +112,6 @@ abstract public class Employe {
 	public void augmenterSalaire(Double pourcentage){
 		Double res = this.salaire*pourcentage;
 		Double resultat = this.salaire+res;
-		setSalaire(resultat);
+		this.salaire = resultat;
 	}
 }
