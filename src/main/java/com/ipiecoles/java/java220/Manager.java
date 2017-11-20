@@ -57,4 +57,9 @@ public class Manager extends Employe{
 	public void ajoutTechnicienEquipe(String nom, String prenom, String matricule, LocalDate dateEmbauche, Double salaire, Integer grade) throws TechnicienException {
 		this.ajoutTechnicienEquipe(new Technicien(nom, prenom, matricule, dateEmbauche, salaire, grade));
 	}
+	
+	public Technicien equipeParGrade(){
+		return null;
+		
+	}
 }
